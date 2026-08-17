@@ -13,6 +13,7 @@ from orchestrator.instructions import default_instructions
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "data" / "platform.json"
 AGENT_TYPES = ("menu", "nutrition", "geo")
+INITIAL_RESERVE_IDS = frozenset({"agt_lima", "agt_andino"})
 
 
 def normalize_ktag_name(name: str) -> str:
@@ -82,13 +83,13 @@ class PlatformStore:
             for aid, agent in seeded.items():
                 if aid not in self.agents:
                     self.agents[aid] = agent
-            self._active_ids = set(self.agents)
+            self._active_ids = self._default_active_ids()
             self._save()
             return
         self.agents = seeded
         self.tickets = []
         self.public_tools = self._default_public_tools()
-        self._active_ids = set(self.agents)
+        self._active_ids = self._default_active_ids()
         self._save()
 
     def _migrate_agent(self, agent: dict[str, Any]) -> dict[str, Any]:
@@ -212,9 +213,12 @@ class PlatformStore:
             return keyed["agt_andino"]
         return reserved[0]
 
+    def _default_active_ids(self) -> set[str]:
+        return {aid for aid in self.agents if aid not in INITIAL_RESERVE_IDS}
+
     def reset_duty(self) -> None:
         with self._lock:
-            self._active_ids.clear()
+            self._active_ids = self._default_active_ids()
 
     def activate_agent(self, agent_id: str) -> dict[str, Any]:
         with self._lock:

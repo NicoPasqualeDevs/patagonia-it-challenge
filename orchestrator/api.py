@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import logging
 import threading
 from pathlib import Path
 from typing import Any
@@ -27,6 +28,17 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+class _IgnoreProbeLogs(logging.Filter):
+    def filter(self, record: logging.LogRecord) -> bool:
+        msg = record.getMessage()
+        return '"GET / HTTP/' not in msg and "/json/version" not in msg
+
+
+_access = logging.getLogger("uvicorn.access")
+if not any(isinstance(f, _IgnoreProbeLogs) for f in _access.filters):
+    _access.addFilter(_IgnoreProbeLogs())
 
 
 class RunHub:

@@ -69,8 +69,6 @@ npm install
 cd ..
 ```
 
-## Cómo correr
-
 Terminal 1:
 
 ```bash
@@ -105,7 +103,7 @@ Tres tipos, cinco agentes de dominio:
 
 Cada ktag es un par `name` / `value`. NutriGuía también recupera platos y alérgenos de los menús; Dónde Comer recupera las ktags `ubicacion` de los locales **activos**. Si el usuario pide sugerencia y no nombra un local, el runtime activa Dónde Comer: elige un menú en turno, y si no hay ninguno habilita uno de reserva; después redirige el flujo a ese agente de menú para que atienda la carta. Si editás el menú o la dirección, las recomendaciones cambian.
 
-Todos arrancan en **reserva**. El intérprete recibe el roster (`id`, `name`, `goal`) y, si el work order encaja por nombre o por descripción, promueve **un** agente a **activo** durante ese run. Al empezar el próximo run, vuelven a reserva. El `goal` se usa como ktag preliminar `perfil` (nombre + descripción) en el RAG, además de los ktags reales. El chat de la UI solo está habilitado en activos.
+Al arrancar, **Lima de Barrio** y **Café Andino** quedan en **reserva**; Sakura, NutriGuía y Dónde Comer arrancan **activos**. El intérprete recibe el roster (`id`, `name`, `goal`) y, si el work order encaja por nombre o por descripción, puede promover un agente de reserva a activo. El `goal` se usa como ktag preliminar `perfil` (nombre + descripción) en el RAG, además de los ktags reales. El chat de la UI solo está habilitado en activos.
 
 Ejemplo de match por especialidad (sin `agent_id`): `examples/work_order_reserve.json`.
 
