@@ -1,0 +1,7 @@
+{
+  "id": "WO-207",
+  "title": "Menú de Café Andino",
+  "description": "Buscar el agente Café Andino (agt_andino) y enviarle un mensaje: '¿Cuál es el menú del día?'",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}

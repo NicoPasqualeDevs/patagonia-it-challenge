@@ -1,0 +1,7 @@
+{
+  "id": "WO-104",
+  "title": "Activar reservas",
+  "description": "Necesitamos habilitar la capacidad de reservas en el agente. No tengo el nombre del cliente ni el id del agente.",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}

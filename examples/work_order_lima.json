@@ -1,0 +1,7 @@
+{
+  "id": "WO-302",
+  "title": "Probar menú Lima de Barrio",
+  "description": "Buscar el agente Lima de Barrio (ya existe) y enviarle un mensaje de prueba: '¿Tienen ceviche? ¿precio y si es sin gluten?'",
+  "requester": "qa@acme.com",
+  "priority": "normal"
+}

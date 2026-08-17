@@ -1,0 +1,7 @@
+{
+  "id": "WO-501",
+  "title": "Ramen en dólares",
+  "description": "Buscar el agente Sakura (agt_sakura), consultar la cotización del dólar y enviarle un mensaje de prueba: 'El ramen sale $16.500, ¿cuánto es en dólares?'",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}

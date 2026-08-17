@@ -1,0 +1,7 @@
+{
+  "id": "WO-101",
+  "title": "Alta de agente para Panadería Norte",
+  "description": "Crear un agente de atención para Panadería Norte. Objetivo: atender consultas de horarios y pedidos. Personalidad: amable y breve. Cargar knowledge sobre facturas, medialunas y café de filtro. Habilitar carrito. Enviar un mensaje de prueba: 'Hola, ¿están abiertos?'",
+  "requester": "ops@acme.com",
+  "priority": "high"
+}

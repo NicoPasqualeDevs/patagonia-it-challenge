@@ -1,0 +1,7 @@
+{
+  "id": "WO-504",
+  "title": "Edamame vs Open Food Facts",
+  "description": "Buscar el agente NutriGuía (agt_nutri), buscar edamame en datos públicos de nutrición/alérgenos y enviarle un mensaje de prueba: 'Soy celiaco, ¿el edamame de Sakura cierra con los datos públicos de proteína y soja?'",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}

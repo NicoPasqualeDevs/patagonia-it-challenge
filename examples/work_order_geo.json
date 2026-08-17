@@ -1,0 +1,7 @@
+{
+  "id": "WO-304",
+  "title": "Recomendación cerca de Belgrano",
+  "description": "Buscar el agente Dónde Comer (agt_geo) y enviarle un mensaje de prueba: 'Estoy cerca de Belgrano y quiero algo peruano'",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}

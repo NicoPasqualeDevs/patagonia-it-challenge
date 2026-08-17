@@ -1,0 +1,7 @@
+{
+  "id": "WO-303",
+  "title": "Consulta nutricional celiaca",
+  "description": "Buscar el agente NutriGuía (agt_nutri) y enviarle un mensaje de prueba: 'Soy celiaco y estoy en Palermo, ¿qué puedo pedir?'",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "WO-401",
+  "title": "Atención de menú japonés",
+  "description": "Necesitamos un agente que atienda consultas de carta japonesa: precios, alérgenos y si hay opciones sin gluten. Enviarle un mensaje de prueba: '¿Cuál es el menú y hay platos aptos celiacos?'",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}

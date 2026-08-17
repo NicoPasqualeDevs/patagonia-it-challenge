@@ -1,0 +1,7 @@
+{
+  "id": "WO-503",
+  "title": "¿Sakura abre hoy?",
+  "description": "Buscar el agente Sakura (agt_sakura), consultar feriados argentinos y la hora actual en Buenos Aires, y enviarle un mensaje de prueba: 'Hola, ¿están abiertos y llego al último pedido?'",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}

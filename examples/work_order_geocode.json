@@ -1,0 +1,7 @@
+{
+  "id": "WO-505",
+  "title": "Geocodificar Sakura",
+  "description": "Buscar el agente Dónde Comer (agt_geo), geocodificar la dirección Honduras 4780 y enviarle un mensaje de prueba: '¿Dónde queda Sakura y cómo se normaliza Honduras 4780 en CABA?'",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}

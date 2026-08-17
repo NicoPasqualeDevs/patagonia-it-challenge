@@ -1,0 +1,7 @@
+{
+  "id": "WO-502",
+  "title": "Comer según el clima en Palermo",
+  "description": "Buscar el agente Dónde Comer (agt_geo), consultar el clima en Palermo y enviarle un mensaje de prueba: 'Estoy en Palermo, ¿conviene Sakura o Lima según el clima de ahora?'",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}

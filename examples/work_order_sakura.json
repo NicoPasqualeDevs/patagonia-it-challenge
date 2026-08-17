@@ -1,0 +1,7 @@
+{
+  "id": "WO-301",
+  "title": "Probar menú Sakura",
+  "description": "Buscar el agente Sakura (ya existe, id agt_sakura) y enviarle un mensaje de prueba: '¿Tienen ramen y es apto celiaco?'",
+  "requester": "qa@acme.com",
+  "priority": "normal"
+}

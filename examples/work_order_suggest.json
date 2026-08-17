@@ -1,0 +1,7 @@
+{
+  "id": "WO-305",
+  "title": "No sé dónde comer",
+  "description": "El cliente no sabe dónde comer y pide una sugerencia de local. Enviar el mensaje de prueba: 'No sé dónde comer esta noche, ¿me sugerís un lugar?'",
+  "requester": "ops@acme.com",
+  "priority": "normal"
+}
