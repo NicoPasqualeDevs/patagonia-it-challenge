@@ -31,7 +31,9 @@ El `.env` de testeo queda así (también está en `.env.example`):
 
 Datos obligatorios en el env :
 
-OPENAI_API_KEY=sk-proj-J7F43CzzMAkHIPfLa1TKT3BlbkFJ1WWXNVDPalRfQkiAufE6
+Api Key de prueba (puede fallar en distintos ip)
+
+OPENAI_API_KEY=sk-proj-\_CODx5ReNdCzSABEIIri0xA_4TVC8Lwpvk9HyETqa1cqzvvF9ieFZd3BBMUHOxyUbV6N4ReL8XT3BlbkFJFR49KWBJlnLn1jg3oZNR3Fsgt6yUNCrIitz4jMBsbwG_WY3gGK0EN1GNy8OiSgfn9YY8DNEL0A
 
 OPENAI_MODEL=gpt-4o-mini
 
