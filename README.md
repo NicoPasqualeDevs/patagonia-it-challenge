@@ -31,7 +31,7 @@ El `.env` de testeo queda así (también está en `.env.example`):
 
 Datos obligatorios en el env :
 
-OPENAI_API_KEY=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
+OPENAI_API_KEY=sk-proj-J7F43CzzMAkHIPfLa1TKT3BlbkFJ1WWXNVDPalRfQkiAufE6
 
 OPENAI_MODEL=gpt-4o-mini
 
