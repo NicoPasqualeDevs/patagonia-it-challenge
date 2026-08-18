@@ -31,13 +31,11 @@ El `.env` de testeo queda así (también está en `.env.example`):
 
 Datos obligatorios en el env :
 
-OPENAI_API_KEY=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
+OPENAI_API_KEY=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
 
 OPENAI_MODEL=gpt-4o-mini
 
-Ejecución:
-
-Opcion 1:
+Ejecución por consola:
 
 **CLI** (con el venv activado, desde la raíz del repo):
 
